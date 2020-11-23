@@ -1,0 +1,16 @@
+magnolia=Bakery.new("Magnolia")
+winner=Bakery.new("Winner")
+city=Bakery.new("City")
+
+cookie=Dessert.new("Cookie", winner)
+croissant=Dessert.new("Croissant", city)
+cupcake=Dessert.new("Cupcake", magnolia)
+danish=Dessert.new("Danish", winner)
+
+flour=Ingredient.new(cookie, winner, 150, "flour")
+sugar=Ingredient.new(cookie, winner, 200, "sugar")
+butter=Ingredient.new(croissant, city, 300, "butter")
+baking_soda=Ingredient.new(cupcake, magnolia, 50, "baking_soda")
+jam=Ingredient.new(danish, winner, 100, "jam")
+chocolate=Ingredient.new(croissant, winner, 300, "chocolate")
+chocolate_chips=Ingredient.new(cookie, winner, 300, "chocolate chips")

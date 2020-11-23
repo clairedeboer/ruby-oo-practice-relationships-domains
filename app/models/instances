@@ -1,0 +1,15 @@
+milwaukeelisting=Listing.new("Milwaukee")
+brooklynlisting=Listing.new("Brooklyn")
+parislisting=Listing.new("Paris")
+
+claireguest=Guest.new("Claire")
+grantguest=Guest.new("Grant")
+jackguest=Guest.new("Jack")
+
+#instantiate the belongs to last, instantiate with objects not strings
+trip1=Trip.new(milwaukeelisting, claireguest, 1)
+trip2=Trip.new(brooklynlisting, jackguest, 2)
+trip3=Trip.new(parislisting, grantguest, 3)
+trip4=Trip.new(milwaukeelisting, grantguest, 4)
+trip5=Trip.new(brooklynlisting, claireguest, 5)
+trip6=Trip.new(parislisting, jackguest, 6)
